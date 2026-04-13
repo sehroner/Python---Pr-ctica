@@ -1,0 +1,10 @@
+num1 = int(input("Introduce el primer número: "))
+num2 = int(input("Introduce el segundo número: "))
+
+print("La suma de operador1 y operador2 es: ", num1 + num2)
+print("La resta de operador1 y operador2 es: ", num1 - num2)
+print("La multiplicación de operador1 y operador2 es: ", num1 * num2)
+print("La división de operador1 y operador2 es: ", round(num1 / num2, 2))
+print("El exponente de operador1 y operador2 es: ", num1 ** num2)
+print("La división entera de operador1 y operador2 es: ", num1 // num2)
+print("El resto entre operador1 y operador2 es: ", num1 % num2)
