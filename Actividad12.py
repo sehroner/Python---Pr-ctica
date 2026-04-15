@@ -6,5 +6,8 @@ if letra.islower():
 elif letra.isupper():
     print("La letra es mayúscula")
 
+elif letra.isnumeric():
+    print("El valor introducido es un número")
+
 else:
-    print("La letra es mayúscula ¿?")
+    print ("El valor introducido es un símbolo")
